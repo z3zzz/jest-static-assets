@@ -1,0 +1,21 @@
+{
+  "name": "introduce-myself2",
+  "jest": {
+    "transform": {},
+    "testEnvironment": "jsdom"
+  },
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
+  },
+  "type": "module",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@yeardream-gitlab.elice.io:kwangtae/introduce-myself.git",
+  "author": "z3zzz <zabra7946@naver.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@testing-library/dom": "^8.13.0",
+    "@testing-library/jest-dom": "^5.16.4",
+    "jest": "^27.5.1"
+  }
+}
