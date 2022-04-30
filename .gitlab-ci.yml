@@ -1,9 +1,0 @@
-pages:
-    stage: deploy
-    script:
-    - echo 'Oh my god..'
-    artifacts:
-        paths:
-        - public
-    only:
-    - main
